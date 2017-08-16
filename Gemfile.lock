@@ -1,3 +1,9 @@
+PATH
+  remote: blog_engine
+  specs:
+    blog_engine (0.1.0)
+      rails (~> 5.0.5)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -167,6 +173,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  blog_engine!
   byebug
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
