@@ -16,7 +16,7 @@
       <tr>
         <td><%= article.title %></td>
         <td><%= article.body %></td>
-        <td><%= link_to 'Show', article %></td>
+        <td><%= link_to 'Show', article, class: "btn btn-primary" %></td>
         <td><%= link_to 'Edit', edit_article_path(article) %></td>
         <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
@@ -27,3 +27,16 @@
 <br>
 
 <%= link_to 'New Article', new_article_path %>
+
+<!-- bootstrap sample-->
+<div class="dropdown">
+    <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Dropdown sample
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dLabel">
+      <li>Menu A</li>
+      <li>Menu B</li>
+      <li>Menu C</li>
+    </ul>
+  </div>
