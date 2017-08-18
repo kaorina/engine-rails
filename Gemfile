@@ -22,6 +22,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'blog_engine', path: 'blog_engine'
 
 group :development, :test do
+  gem 'factory_girl_rails'
   gem 'byebug', platform: :mri
   gem 'pry-rails'
 end
@@ -32,6 +33,11 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'rb-readline'
+end
+
+group :test do
+  gem 'rspec'
+  gem 'rspec-rails'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
