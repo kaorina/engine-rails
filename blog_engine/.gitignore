@@ -5,3 +5,4 @@ spec/dummy_app/db/*.sqlite3
 spec/dummy_app/db/*.sqlite3-journal
 spec/dummy_app/log/*.log
 spec/dummy_app/tmp/
+spec/dummy_app/db/
